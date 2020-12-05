@@ -39,6 +39,7 @@ class SpringbootQuartzApplicationTests {
 
         scheduler.scheduleJob(jobDetail,trigger);
         System.out.println("添加定时任务成功");
+        System.out.println("我更改了哦");
     }
 
 }
